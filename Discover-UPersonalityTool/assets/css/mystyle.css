@@ -1,0 +1,131 @@
+html,
+body {
+    font-family: montserrat, arial, verdana;
+    background-color: #1F282D;
+}
+
+.container {
+    width: 1170px;
+}
+
+.container .jumbotron {
+    width: 100%;
+    box-shadow: 0 8px 16px -6px black;
+}
+
+.container-scroll {
+    height: 0.25em;
+    width: 100%;
+    position: fixed;
+    background: #f4f4f4;
+    top: 0px;
+}
+
+#progress-bar {
+    position: relative;
+    height: 100%;
+    width: 0%;
+    background: red;
+}
+
+footer {
+    text-align: center;
+    color: white;
+}
+
+
+/*custom font*/
+
+img {
+    float: right;
+    height: 21em;
+    width: 100%;
+    box-shadow: 0 8px 16px -6px black;
+    padding: 0;
+}
+
+h2 {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    color: lightgray;
+    text-align: center;
+}
+
+.btn-group-lg>.btn,
+.btn-lg {
+    padding: 10px 25px;
+    font-size: 18px;
+    line-height: 1.3333333;
+    border-radius: 4px;
+    margin: 7.5px;
+}
+
+.btn-group-lg>.btn,
+.btn-lg {
+    padding: 10px 25px;
+    font-size: 18px;
+    line-height: 1.3333333;
+    border-radius: 4px;
+    margin: 7.5px;
+}
+
+
+/*form styles*/
+
+#msform {
+    width: 80%;
+    margin: 50px auto;
+    text-align: center;
+    position: relative;
+}
+
+#msform fieldset {
+    background: white;
+    border: 0 none;
+    border-radius: 3px;
+    box-shadow: 0 0 15px 1px rgba(0, 0, 0, 0.4);
+    padding: 50px 35px;
+    box-sizing: border-box;
+    width: 80%;
+    margin: 5% 10%;
+    position: relative;
+}
+
+
+/*headings*/
+
+.fs-title {
+    font-size: 12px;
+    text-transform: uppercase;
+    color: red;
+    margin-bottom: 10px;
+    margin-top: 0;
+}
+
+.fs-subtitle {
+    font-weight: normal;
+    font-size: 20px;
+    color: #666;
+    margin-bottom: 20px;
+}
+
+#brown {
+    color: saddlebrown;
+}
+
+#desc {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+#green {
+    color: forestgreen;
+}
+
+#blue {
+    color: blue;
+}
+
+#red {
+    color: red;
+}

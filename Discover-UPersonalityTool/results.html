@@ -1,0 +1,590 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Discover-U | Personality Test Tool</title>
+    <!--  
+    Stylesheets
+    =============================================
+    -->
+    <!-- Default stylesheets-->
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Template specific stylesheets-->
+    <link href="assets/lib/animate.css/animate.css" rel="stylesheet">
+    <link href="assets/lib/components-font-awesome/css/font-awesome.min.css" rel="stylesheet">
+    <!-- Main stylesheet and color file-->
+    <link href="lib/bootstrap/dist/css/bootstrap-theme.min.css" rel="stylesheet">
+    <link href="lib/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="lib/animate.css/animate.css" rel="stylesheet">
+    <link href="assets/css/mystyle.css" rel="stylesheet"> </head>
+
+<body>
+    <section>
+        <div class="container">
+            <div>
+                <h2> Personality Test Results <br/><small text-center>Discover-U</small></h2>
+                <hr> </div>
+            <div class="jumbotron">
+                <h1 class="display-3">Discover-U</h1>
+                <p class="message">Congratulations on completing the test, here are your results...</p>
+            </div>
+            <div class="row marketing">
+                <!-- Melmetics - Color Test Section 
+                     Modal IDs 1-4 -->
+                <section>
+                    <div class="col-lg-12">
+                        <div class="jumbotron">
+                            <h4>Melmetics - Color Test Result</h4>
+                            <hr>
+                            <h3 id="resultOne"></h3>
+                            <br>
+                            <br>
+                            <div class="container">
+                                <button class="btn btn-lg btn-danger" data-toggle="modal" data-target="#myModal1">Brown</button>
+                                <div class="modal fade" id="myModal1" role="dialog">
+                                    <div class="modal-dialog">
+                                        <!-- Modal content-->
+                                        <div class="modal-content">
+                                            <div class="modal-header">
+                                                <h3>Brown</h3> </div>
+                                            <div class="modal-body">
+                                                <p>Brown, or Builder, shows leadership and decisiveness. Browns usually enjoy leading and being up front with people by expressing themselves openly and directly. Builders are practical people who will build a home, a school, a gang, a nation, a religion, a corporation, or an empire. Tradition and patriotism are part of a Builder’s life. Builders want the bottom line. They do not like it when others are not direct with them. Builders want to be the best at everything they do.</p>
+                                                <p align="left"><small><i>Text source: Section 8 - Book Two: Winning Colors®</i></small></p>
+                                            </div>
+                                            <div class="modal-footer">
+                                                <button type="button" class="btn btn-lg btn-danger" data-dismiss="modal">Close</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <button class="btn btn-lg btn-danger" data-toggle="modal" data-target="#myModal2">Green</button>
+                                <div class="modal fade" id="myModal2" role="dialog">
+                                    <div class="modal-dialog">
+                                        <!-- Modal content-->
+                                        <div class="modal-content">
+                                            <div class="modal-header">
+                                                <h3>Green</h3> </div>
+                                            <div class="modal-body">
+                                                <p>Green, or Planner, is like the ocean, with deep, hidden, changing currents. Planners enjoy planning new and better ways of doing things. They know the underlying details are important and they make sure that everything is brought into consideration before making an important decision. Planners are prone to do a lot of personal thinking. They want to cover all the details as a constant tumbling of ideas takes place in their minds. Planners are visionaries, but usually are not very practical. Planners will miss opportunities because they are too slow at getting things done.</p>
+                                                <p align="left"><small><i>Section 8 - Book Two: Winning Colors®</i></small></p>
+                                            </div>
+                                            <div class="modal-footer">
+                                                <button type="button" class="btn btn-lg btn-danger" data-dismiss="modal">Close</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <button class="btn btn-lg btn-danger" data-toggle="modal" data-target="#myModal3">Blue</button>
+                                <div class="modal fade" id="myModal3" role="dialog">
+                                    <div class="modal-dialog">
+                                        <!-- Modal content-->
+                                        <div class="modal-content">
+                                            <div class="modal-header">
+                                                <h3>Blue</h3> </div>
+                                            <div class="modal-body">
+                                                <p> Blue or Relater, is like the sky and shows openness and feeling. Relaters usually enjoy being with people and have a high regard for emotions. Relaters know that feelings are important and they will bend their needs to accommodate others. They make their judgments based upon other people rather than the facts. Relaters want unity with others and are usually romantic at heart. They are sympathetically mature and want to communicate and socialize with others. Emotional intimacy is a must in any relationship.</p>
+                                                <p align="left"><small><i>Section 8 - Book Two: Winning Colors®</i></small></p>
+                                            </div>
+                                            <div class="modal-footer">
+                                                <button type="button" class="btn btn-lg btn-danger" data-dismiss="modal">Close</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <button class="btn btn-lg btn-danger" data-toggle="modal" data-target="#myModal4">Red</button>
+                                <div class="modal fade" id="myModal4" role="dialog">
+                                    <div class="modal-dialog">
+                                        <!-- Modal content-->
+                                        <div class="modal-content">
+                                            <div class="modal-header">
+                                                <h3>Red</h3> </div>
+                                            <div class="modal-body">
+                                                <p> Red, or Adventurer, is like the fire of the sun and shows excitement and action. Adventurers usually enjoy being where the action is and bringing fun and thrills into the routine of daily life. Adventurers are at their best in a time of crisis. Adventurers believe that people are free and should enjoy a life free of a multitude of laws. They usually seek excitement, adventure, and risk. Adventurers are survivors. Tiredness, hunger, and pain are all part of adventure. Hardship is endured as the cost of action and excitement. Adventurers love to travel. They accept change. They are spontaneous.</p>
+                                                <p align="left"><small><i>Section 8 - Book Two: Winning Colors®</i></small></p>
+                                            </div>
+                                            <div class="modal-footer">
+                                                <button type="button" class="btn btn-lg btn-danger" data-dismiss="modal">Close</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <!--Socrates - Know Thyself - Briggs Myers Test Section
+                    Modal IDs 5-19 -->
+                <section>
+                    <div class="col-lg-12">
+                        <div class="jumbotron">
+                            <h4>Socrates - Know Thyself - Briggs Myers Test</h4>
+                            <hr>
+                            <h3 id="resultTwo"></h3>
+                            <h3 id="resultTwoDesc"></h3>
+                            <br>
+                            <br>
+                            <div class="container">
+                                <button class="btn btn-lg btn-danger" data-toggle="modal" data-target="#myModal5">INTJ</button>
+                                <div class="modal fade" id="myModal5" role="dialog">
+                                    <div class="modal-dialog">
+                                        <!-- Modal content-->
+                                        <div class="modal-content">
+                                            <div class="modal-header">
+                                                <h3>INTJ</h3> </div>
+                                            <div class="modal-body">
+                                                <p>Personality type INTJ are very strategic people. They have knowledge and logic and about everything but lack social skills. This personality type is also known as "The architect".</p>
+                                                <br>
+                                                <br>
+                                                <p>Strengths:</p>
+                                                <p>Imaginative, High self-confidence, Independent and Decisive.</p>
+                                                <br>
+                                                <p>Weaknesses: Judgmental, Clueless in romance, Arrogant.</p>
+                                                <p>Posible job positions : Accountant, Financial Analyst, All types of egineering, Computer science</p>
+                                            </div>
+                                            <div class="modal-footer">
+                                                <p align="left"><small><i>16Personalities</i></small></p>
+                                                <button type="button" class="btn btn-lg btn-danger" data-dismiss="modal">Close</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <button class="btn btn-lg btn-danger" data-toggle="modal" data-target="#myModal6">INTP</button>
+                                <div class="modal fade" id="myModal6" role="dialog">
+                                    <div class="modal-dialog">
+                                        <!-- Modal content-->
+                                        <div class="modal-content">
+                                            <div class="modal-header">
+                                                <h3>INTP</h3> </div>
+                                            <div class="modal-body">
+                                                <p>Also known as the "The Logician". They take pride in their work, accomplishments, and their intellect. They may seem unreliable but they are the best at finding the problem and coming up with unique solutions.</p>
+                                                <br>
+                                                <br>
+                                                <p>Strengths:</p>
+                                                <p>Open-Minded, Enthusiastic, Honest and Straightforward.</p>
+                                                <br>
+                                                <p>Weaknesses: Insensitive, Condescending, second guess themselves.</p>
+                                                <p>Posible job positions : Database Administrator, Civil Engineering, Psychologist, Musician</p>
+                                            </div>
+                                            <div class="modal-footer">
+                                                <p align="left"><small><i>16Personalities</i></small></p>
+                                                <button type="button" class="btn btn-lg btn-danger" data-dismiss="modal">Close</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <button class="btn btn-lg btn-danger" data-toggle="modal" data-target="#myModal7">ENTJ</button>
+                                <div class="modal fade" id="myModal7" role="dialog">
+                                    <div class="modal-dialog">
+                                        <!-- Modal content-->
+                                        <div class="modal-content">
+                                            <div class="modal-header">
+                                                <h3>ENTJ</h3> </div>
+                                            <div class="modal-body">
+                                                <p>Also known as the "The Commander". They are the leaders. They have charisma and confidence. They are the types to acttract other people to them by the way they are goal oriented and their focus to get things done.</p>
+                                                <br>
+                                                <br>
+                                                <p>Strengths:</p>
+                                                <p>Efficient, Strategic Thinkers &amp; strong-willed</p>
+                                                <br>
+                                                <p>Weaknesses: Stubborn, Impatient, difficulty handling their emotions.</p>
+                                                <p>Posible job positions : Meeting or convention planner, Advertising sales agent, Dentist.</p>
+                                            </div>
+                                            <div class="modal-footer">
+                                                <p align="left"><small><i>16Personalities</i></small></p>
+                                                <button type="button" class="btn btn-lg btn-danger" data-dismiss="modal">Close</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <button class="btn btn-lg btn-danger" data-toggle="modal" data-target="#myModal8">ENTP</button>
+                                <div class="modal fade" id="myModal8" role="dialog">
+                                    <div class="modal-dialog">
+                                        <div class="modal-content">
+                                            <div class="modal-header">
+                                                <h3>ENTP</h3> </div>
+                                            <div class="modal-body">
+                                                <p>Also known as the "The Debater". They have a passion making arguments. They take pride in being the underdog. Thye have a difficult time in harnessing their abilities, intellectual independence and free-form vision but when they do they feel a tremendous amount of power.</p>
+                                                <br>
+                                                <br>
+                                                <p>Strengths: Quick Thinkers, Charismatic &amp; Energetic</p>
+                                                <br>
+                                                <p>Weaknesses: Intolerant, Very argumentative, Difficulty focusing.</p>
+                                                <p>Posible job positions : HR Recruiter, Geologist, Chiropractor.</p>
+                                            </div>
+                                            <div class="modal-footer">
+                                                <p align="left"><small><i>16Personalities</i></small></p>
+                                                <button type="button" class="btn btn-lg btn-danger" data-dismiss="modal">Close</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <button class="btn btn-lg btn-danger" data-toggle="modal" data-target="#myModal9">INFJ</button>
+                                <div class="modal fade" id="myModal9" role="dialog">
+                                    <div class="modal-dialog">
+                                        <div class="modal-content">
+                                            <div class="modal-header">
+                                                <h3>INFJ</h3> </div>
+                                            <div class="modal-body">
+                                                <p>Also known as the "The Advocate". They are best known &amp;described as possessing idealism and morality. They have a unique combination of being soft-spoken, they have very strong opinion and will fight tirelessly for an idea they believe in. They make connections with others very easily. </p>
+                                                <br>
+                                                <br>
+                                                <p>Strengths: Determined &amp; Passionate, Inspiring &amp; Convincing</p>
+                                                <br>
+                                                <p>Weaknesses: Sensitive, Perfectionist, Cause Driven.</p>
+                                                <p>Posible job positions : Mental Health Counsellor, Socialist, Photographer.</p>
+                                            </div>
+                                            <div class="modal-footer">
+                                                <p align="left"><small><i>16Personalities</i></small></p>
+                                                <button type="button" class="btn btn-lg btn-danger" data-dismiss="modal">Close</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <button class="btn btn-lg btn-danger" data-toggle="modal" data-target="#myModal10">INFP</button>
+                                <div class="modal fade" id="myModal10" role="dialog">
+                                    <div class="modal-dialog">
+                                        <div class="modal-content">
+                                            <div class="modal-header">
+                                                <h3>INFP</h3> </div>
+                                            <div class="modal-body">
+                                                <p>Also known as the "The Mediator". They are considered as the healers, the peacemakers who always look for the good in people. They are able to communicate deeply with others, they usually know how to speak more than one language.</p>
+                                                <br>
+                                                <br>
+                                                <p>Strengths: Open-Minded &amp; Flexible, Seek &amp; Value Harmony</p>
+                                                <br>
+                                                <p>Weaknesses: Sensitive, Perfectionist, Cause Driven.</p>
+                                                <p>Posible job positions : Librarian, Speech Language Pathologist</p>
+                                            </div>
+                                            <div class="modal-footer">
+                                                <p align="left"><small><i>16Personalities</i></small></p>
+                                                <button type="button" class="btn btn-lg btn-danger" data-dismiss="modal">Close</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <button class="btn btn-lg btn-danger" data-toggle="modal" data-target="#myModal11">ENFJ</button>
+                                <div class="modal fade" id="myModal11" role="dialog">
+                                    <div class="modal-dialog">
+                                        <div class="modal-content">
+                                            <div class="modal-header">
+                                                <h3>ENFJ</h3> </div>
+                                            <div class="modal-body">
+                                                <p>Also known as the "The Protagonist". They are natural born leaders, They are not afraid to stand up or speak up when they feel the need to have their opinion heard. They have a tremendous capacity for reflecting on and analyzing their own feelings </p>
+                                                <br>
+                                                <br>
+                                                <p>Strengths: Natural Leaders, Tolerant, Reliable</p>
+                                                <br>
+                                                <p>Weaknesses: Overly Idealistic, Too Selfless, Too sensitive</p>
+                                                <p>Posible job positions : Real Estate Broker, Flight, Actor</p>
+                                            </div>
+                                            <div class="modal-footer">
+                                                <p align="left"><small><i>16Personalities</i></small></p>
+                                                <button type="button" class="btn btn-lg btn-danger" data-dismiss="modal">Close</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <button class="btn btn-lg btn-danger" data-toggle="modal" data-target="#myModal12">ENFP</button>
+                                <div class="modal fade" id="myModal12" role="dialog">
+                                    <div class="modal-dialog">
+                                        <div class="modal-content">
+                                            <div class="modal-header">
+                                                <h3>ENFP</h3> </div>
+                                            <div class="modal-body">
+                                                <p>Also known as the "The Compaigner". They are the type of people that tend to read between the lines due to their curiosity and energy. They see life as a big puzzle where everything is somehow connected. Their energy will bring them the spotlight and make them shine above everyone else.</p>
+                                                <br>
+                                                <br>
+                                                <p>Strengths: Curious, Excellent Communicators, Popular &amp; Friendly</p>
+                                                <br>
+                                                <p>Weaknesses: Lack practical skills, Overthink Things, Highly Emotional</p>
+                                                <p>Posible job positions : Animal Trainer, Bartender, Teacher Assistant</p>
+                                            </div>
+                                            <div class="modal-footer">
+                                                <p align="left"><small><i>16Personalities</i></small></p>
+                                                <button type="button" class="btn btn-lg btn-danger" data-dismiss="modal">Close</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <button class="btn btn-lg btn-danger" data-toggle="modal" data-target="#myModal13">ISTJ</button>
+                                <div class="modal fade" id="myModal13" role="dialog">
+                                    <div class="modal-dialog">
+                                        <div class="modal-content">
+                                            <div class="modal-header">
+                                                <h3>ISTJ</h3> </div>
+                                            <div class="modal-body">
+                                                <p>Also known as the "The Logician". Their defining characteristics of integrity, practical logic and tireless dedication to duty make Logisticians a vital core to many families, as well as organizations that uphold traditions, rules and standards, such as law offices, regulatory bodies and military.</p>
+                                                <br>
+                                                <br>
+                                                <p>Strengths: Honest, Jack of all trades, Very Responsible</p>
+                                                <br>
+                                                <p>Weaknesses: Stubborn, Always by the book, Judgmental</p>
+                                                <p>Posible job positions : Police Officer, Mechanic, Surgeon</p>
+                                            </div>
+                                            <div class="modal-footer">
+                                                <p align="left"><small><i>16Personalities</i></small></p>
+                                                <button type="button" class="btn btn-lg btn-danger" data-dismiss="modal">Close</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <button class="btn btn-lg btn-danger" data-toggle="modal" data-target="#myModal14">ISFJ</button>
+                                <div class="modal fade" id="myModal14" role="dialog">
+                                    <div class="modal-dialog">
+                                        <div class="modal-content">
+                                            <div class="modal-header">
+                                                <h3>ISFJ</h3> </div>
+                                            <div class="modal-body">
+                                                <p>Also known as the "The Defender". Though sensitive, Defenders have excellent analytical abilities; though reserved, they have well-developed people skills and robust social relationships; and though they are generally a conservative type</p>
+                                                <br>
+                                                <br>
+                                                <p>Strengths: Supportive, Imaginative, Enthusiastic</p>
+                                                <br>
+                                                <p>Weaknesses: Overload Themselves, Humble &amp; Shy, Repress their feelings</p>
+                                                <p>Posible job positions : Dentist, Social Worker, Hotel Manager</p>
+                                            </div>
+                                            <div class="modal-footer">
+                                                <p align="left"><small><i>16Personalities</i></small></p>
+                                                <button type="button" class="btn btn-lg btn-danger" data-dismiss="modal">Close</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <button class="btn btn-lg btn-danger" data-toggle="modal" data-target="#myModal15">ESTJ</button>
+                                <div class="modal fade" id="myModal15" role="dialog">
+                                    <div class="modal-dialog">
+                                        <div class="modal-content">
+                                            <div class="modal-header">
+                                                <h3>ESTJ</h3> </div>
+                                            <div class="modal-body">
+                                                <p>Also known as the "The Executive". Embracing the values of honesty, dedication and dignity, people with the Executive personality type are valued for their clear advice and guidance, and they happily lead the way on difficult paths.</p>
+                                                <br>
+                                                <br>
+                                                <p>Strengths: Dedicated, Direct &amp; Honest, Enjoy creating Order</p>
+                                                <br>
+                                                <p>Weaknesses: Inflexible &amp; Stubborn, Difficlut to relax, Judgmental</p>
+                                                <p>Posible job positions : Pharmacist, Attorney, School Princicple</p>
+                                            </div>
+                                            <div class="modal-footer">
+                                                <p align="left"><small><i>16Personalities</i></small></p>
+                                                <button type="button" class="btn btn-lg btn-danger" data-dismiss="modal">Close</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <button class="btn btn-lg btn-danger" data-toggle="modal" data-target="#myModal16">ESFJ</button>
+                                <div class="modal fade" id="myModal16" role="dialog">
+                                    <div class="modal-dialog">
+                                        <div class="modal-content">
+                                            <div class="modal-header">
+                                                <h3>ESFJ</h3> </div>
+                                            <div class="modal-body">
+                                                <p>Also known as the "The Consul". Consuls are the cheerleaders and the quarterbacks, setting the tone, taking the spotlight and leading their teams forward to victory and fame.</p>
+                                                <br>
+                                                <br>
+                                                <p>Strengths: Loyal, Sensitive &amp; Warm, Good Communicators</p>
+                                                <br>
+                                                <p>Weaknesses: Inflexible, Vulnerable to Criticism, Too Selfless</p>
+                                                <p>Posible job positions : Paralegal, Fitness Trainer, Receptionist</p>
+                                            </div>
+                                            <div class="modal-footer">
+                                                <p align="left"><small><i>16Personalities</i></small></p>
+                                                <button type="button" class="btn btn-lg btn-danger" data-dismiss="modal">Close</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <button class="btn btn-lg btn-danger" data-toggle="modal" data-target="#myModal17">ISTP</button>
+                                <div class="modal fade" id="myModal17" role="dialog">
+                                    <div class="modal-dialog">
+                                        <div class="modal-content">
+                                            <div class="modal-header">
+                                                <h3>ISTP</h3> </div>
+                                            <div class="modal-body">
+                                                <p>Also known as the "The Virtuoso". People with this personality type are natural Makers, moving from project to project, building the useful and the superfluous for the fun of it, and learning from their environment as they go</p>
+                                                <br>
+                                                <br>
+                                                <p>Strengths: Creative, Optimistic &amp; Energetic, Relaxed</p>
+                                                <br>
+                                                <p>Weaknesses: Stubborn, Risky Behaviour, Private &amp; Reserved</p>
+                                                <p>Posible job positions : Carpenter, Budget Analyst, Chef</p>
+                                            </div>
+                                            <div class="modal-footer">
+                                                <p align="left"><small><i>16Personalities</i></small></p>
+                                                <button type="button" class="btn btn-lg btn-danger" data-dismiss="modal">Close</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <button class="btn btn-lg btn-danger" data-toggle="modal" data-target="#myModal18">ISFP</button>
+                                <div class="modal fade" id="myModal18" role="dialog">
+                                    <div class="modal-dialog">
+                                        <div class="modal-content">
+                                            <div class="modal-header">
+                                                <h3>ISFP</h3> </div>
+                                            <div class="modal-body">
+                                                <p>Also known as the "The Adventurer". Adventurer personalities are true artists, but not necessarily in the typical sense where they’re out painting happy little trees. Often enough though, they are perfectly capable of this. Rather, it’s that they use aesthetics, design and even their choices and actions to push the limits of social convention</p>
+                                                <br>
+                                                <br>
+                                                <p>Strengths: Charming, Creative, Passionate, Artistic</p>
+                                                <br>
+                                                <p>Weaknesses: Unpredictable, Easily Stressed, Very Independent</p>
+                                                <p>Posible job positions : Nurse, Interior Designer, Surveyor</p>
+                                            </div>
+                                            <div class="modal-footer">
+                                                <p align="left"><small><i>16Personalities</i></small></p>
+                                                <button type="button" class="btn btn-lg btn-danger" data-dismiss="modal">Close</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <button class="btn btn-lg btn-danger" data-toggle="modal" data-target="#myModal19">ESTP</button>
+                                <div class="modal fade" id="myModal19" role="dialog">
+                                    <div class="modal-dialog">
+                                        <div class="modal-content">
+                                            <div class="modal-header">
+                                                <h3>ESTP</h3> </div>
+                                            <div class="modal-body">
+                                                <p>Also known as the "The Entrepreneur". Adventurer personalities are true artists, but not necessarily in the typical sense where they’re out painting happy little trees. Often enough though, they are perfectly capable of this. Rather, it’s that they use aesthetics, design and even their choices and actions to push the limits of social convention</p>
+                                                <br>
+                                                <br>
+                                                <p>Strengths: Charming, Creative, Passionate, Artistic</p>
+                                                <br>
+                                                <p>Weaknesses: Unpredictable, Easily Stressed, Very Independent</p>
+                                                <p>Posible job positions : Nurse, Interior Designer, Surveyor</p>
+                                            </div>
+                                            <div class="modal-footer">
+                                                <p align="left"><small><i>16Personalities</i></small></p>
+                                                <button type="button" class="btn btn-lg btn-danger" data-dismiss="modal">Close</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <button class="btn btn-lg btn-danger" data-toggle="modal" data-target="#myModal19">ESFP</button>
+                                <div class="modal fade" id="myModal19" role="dialog">
+                                    <div class="modal-dialog">
+                                        <div class="modal-content">
+                                            <div class="modal-header">
+                                                <h3>ESFP</h3> </div>
+                                            <div class="modal-body">
+                                                <p>Also known as the "The Entrepreneur". Adventurer personalities are true artists, but not necessarily in the typical sense where they’re out painting happy little trees. Often enough though, they are perfectly capable of this. Rather, it’s that they use aesthetics, design and even their choices and actions to push the limits of social convention</p>
+                                                <br>
+                                                <br>
+                                                <p>Strengths: Charming, Creative, Passionate, Artistic</p>
+                                                <br>
+                                                <p>Weaknesses: Unpredictable, Easily Stressed, Very Independent</p>
+                                                <p>Posible job positions : Nurse, Interior Designer, Surveyor</p>
+                                            </div>
+                                            <div class="modal-footer">
+                                                <p align="left"><small><i>16Personalities</i></small></p>
+                                                <button type="button" class="btn btn-lg btn-danger" data-dismiss="modal">Close</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <!--Personality Test - A, B, C, D Test Section 
+                    Modal IDs 20-23 -->
+                <section>
+                    <div class="col-lg-12">
+                        <div class="jumbotron">
+                            <h4>Personality Test - A, B, C, D</h4>
+                            <hr>
+                            <h3 id="resultThree"></h3>
+                            <br>
+                            <br>
+                            <div class="container">
+                                <button class="btn btn-lg btn-danger" data-toggle="modal" data-target="#myModal20">A</button>
+                                <div class="modal fade" id="myModal20" role="dialog">
+                                    <div class="modal-dialog">
+                                        <!-- Modal content-->
+                                        <div class="modal-content">
+                                            <div class="modal-header">
+                                                <h3>A</h3> </div>
+                                            <div class="modal-body">
+                                                <p>The "A" personality likes to be in charge and be in control of their environment and their lives. They are normally not very detail oriented, choosing to delegate details to others. They are usually very goal oriented and practical in their solutions. </p>
+                                            </div>
+                                            <div class="modal-footer">
+                                                <p align="left"><small><i>Word - Personality Type Letters®</i></small></p>
+                                                <button type="button" class="btn btn-lg btn-danger" data-dismiss="modal">Close</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <button class="btn btn-lg btn-danger" data-toggle="modal" data-target="#myModal21">B</button>
+                                <div class="modal fade" id="myModal21" role="dialog">
+                                    <div class="modal-dialog">
+                                        <!-- Modal content-->
+                                        <div class="modal-content">
+                                            <div class="modal-header">
+                                                <h3>B</h3> </div>
+                                            <div class="modal-body">
+                                                <p>The "B" personality is a very outgoing, energetic and fast paced individual who likes to be around people and enjoys being the center of attention.  They are good relationship builders and most people like them right away.  Their driving need for approval, they try and like everyone in hopes everyone will in turn reciprocate and like them too. </p>
+                                            </div>
+                                            <div class="modal-footer">
+                                                <p align="left"><small><i>Word - Personality Type Letters®</i></small></p>
+                                                <button type="button" class="btn btn-lg btn-danger" data-dismiss="modal">Close</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <button class="btn btn-lg btn-danger" data-toggle="modal" data-target="#myModal22">C</button>
+                                <div class="modal fade" id="myModal22" role="dialog">
+                                    <div class="modal-dialog">
+                                        <!-- Modal content-->
+                                        <div class="modal-content">
+                                            <div class="modal-header">
+                                                <h3>C</h3> </div>
+                                            <div class="modal-body">
+                                                <p>The "C" personality is a very detail oriented individual that likes to be involved in things that are controlled and stable.  They are interested in accuracy, rationality and logic.  People who can't seem to control their emotions will bother them because they believe being emotional makes objectivity difficult or perhaps impossible. </p>
+                                            </div>
+                                            <div class="modal-footer">
+                                                <p align="left"><small><i>Word - Personality Type Letters®</i></small></p>
+                                                <button type="button" class="btn btn-lg btn-danger" data-dismiss="modal">Close</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <button class="btn btn-lg btn-danger" data-toggle="modal" data-target="#myModal23">D</button>
+                                <div class="modal fade" id="myModal23" role="dialog">
+                                    <div class="modal-dialog">
+                                        <!-- Modal content-->
+                                        <div class="modal-content">
+                                            <div class="modal-header">
+                                                <h3>D</h3> </div>
+                                            <div class="modal-body">
+                                                <p>"D" personalities are usually very organized and being around a messy environment or disorganization will bother them.  They are also good at playing a very supportive role with others and are normally very caring, thoughtful and compassionate.  They are patient, good listeners and will persevere when all others have given up.</p>
+                                            </div>
+                                            <div class="modal-footer">
+                                                <p align="left"><small><i>Word - Personality Type Letters®</i></small></p>
+                                                <button type="button" class="btn btn-lg btn-danger" data-dismiss="modal">Close</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div> <a id="footer" name="buttons" class="btn btn-lg btn-danger" href="index.html" role="button">Home</a><a class="btn btn-lg btn-danger" href="questionPage1.html" role="button">Retake Test</a>
+            <footer class="footer">
+                <hr>
+                <p>&copy; 2017 Mosharrof Hussain &amp; Christopher Frattaroli</p>
+            </footer>
+        </div>
+    </section>
+    <script src="https://cdn.jsdelivr.net/npm/js-cookie@2/src/js.cookie.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="assets/js/script.js" type="text/javascript"></script>
+    <script src="assets/js/GetResults.js" type="text/javascript"></script>
+</body>
+
+</html>
